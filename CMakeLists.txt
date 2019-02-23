@@ -7,4 +7,4 @@ add_library(
 	src/twisdk.cpp
 )
 include_directories(src)
-find_package(Boost 1.55 REQUIRED)
+find_package(Boost 1.66 REQUIRED)
