@@ -7,6 +7,8 @@ add_library(
 	src/twisdk.cpp
 	src/twisdk.hpp
 	src/twisdkPriv.hpp
+	src/httpserver.cpp
+	src/httpserver.hpp
 )
 include_directories(src)
 find_package(Boost 1.66 REQUIRED)
